@@ -12,33 +12,17 @@ function Header() {
 
 function Navbar() {
     return (
-    <div class="container container-fluid navbar-container">
-        <div className="row">
-            <div className="navbar">
-                <div className="site-link col-6">
-                    <a className="text-decoration-none text-white" href="https://www.google.com/">
-                        www.DEMOLINK.ORG |
-                    </a>
-                </div>
-                <div className="header-navbar col-6">
-                    <ul className="d-inline-flex justify-content-end  list-group-horizontal">
-                        <a className="text-decoration-none" href="https://www.google.com/">
-                            <li className="list-group-item text-white">SUPPORT |</li>
-                        </a>
-                        <a className="text-decoration-none" href="https://www.google.com/">
-                            <li className="list-group-item ps-2 text-white">FAQS |</li>
-                        </a>
-                        <a className="text-decoration-none" href="https://www.google.com/">
-                            <li className="list-group-item ps-2 text-white">SITEMAP |</li>
-                        </a>
-                        <a className="text-decoration-none" href="https://www.google.com/">
-                            <li className="list-group-item ps-2 text-white">HELP |</li>
-                        </a>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </div>
+        <nav className="navbar navbar-expand-sm">
+            <a className="text-decoration-none text-white col-6" href="#">www.DEMOLINK.ORG |</a>
+            <ul className="list-group list-group-horizontal header-nav col-6 d-flex justify-content-end">
+                <li><a className="text-decoration-none text-white" href="">SUPPORT</a></li>
+                <li><a className="text-decoration-none text-white" href="">| FAQS</a></li>
+                <li><a className="text-decoration-none text-white" href="">| SITEMAP</a></li>
+                <li><a className="text-decoration-none text-white" href="">| HELP</a></li>
+            </ul>
+        </nav>
+
+
     )
 }
 

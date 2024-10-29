@@ -2,11 +2,38 @@
     background-color: darkblue;
 }
 
-.navbar-container {
-    display: flex;
-    align-items: center;
+.header {
+    width: 100vw;
+    background-color: darkblue;
 }
-.navborder {
-    border: none;
+
+.header-nav {
+    list-style: none;
+}
+
+#logo {
+    height: 80px;
+    width: 250px;
+}
+
+.hero-nav li button {
+    background-color: darkblue;
+    color: white;
+    border-radius: 8px;
+}
+
+#nav-button {
+    border-style: none;
+}
+#hero-img {
+    height: 500px;
+    width: 100vh;
+}
+
+#scroll-buttons {
+    border-radius: 50%;
+    /* border: none; */
+    height: 30px;
+    width: 30px;
 }
 
