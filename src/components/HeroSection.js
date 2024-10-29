@@ -15,7 +15,7 @@ function HeroSection() {
 function Logo() {
     return(
         <div className="col-6">
-            <img src={detroixlogo} alt="" />
+            <img className="img-fluid" src={detroixlogo} alt="" />
         </div>
     )
 }

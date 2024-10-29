@@ -2,11 +2,11 @@
     background-color: darkblue;
 }
 
-.nav {
-    background-color: darkblue;
-    color: white;
+.navbar-container {
+    display: flex;
+    align-items: center;
 }
-
 .navborder {
     border: none;
 }
+
